@@ -1,3 +1,9 @@
+.secao {
+    display: grid;
+    align-items: center;
+}
+
+
 .secao-vertical {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -7,3 +13,4 @@
 .secao-vertical .secao__cartoes {
     grid-column: 1/3;
 }
+
